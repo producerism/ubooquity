@@ -2,6 +2,9 @@
 
 echo "--> start.sh script running..."
 
+LANG=en_US.UTF8
+export LANG
+
 mkdir -p /config/clogs
 touch /config/clogs/Ubooquity.log
 
