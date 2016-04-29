@@ -1,6 +1,6 @@
 [watcher:Ubooquity]
 cmd = java 
-args = -Dfile.encoding=UTF-8 -jar Ubooquity.jar -port {{ UBOOQUITY_PORT | default(8085) }} -webadmin
+args = -Dfile.encoding=UTF8 -jar Ubooquity.jar -port {{ UBOOQUITY_PORT | default(8085) }} -webadmin
 copy_env = True
 user = nobody
 uid = 99
